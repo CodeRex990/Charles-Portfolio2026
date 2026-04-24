@@ -12,8 +12,10 @@ const skills = [
     //Backend
     {name: "Node.js", level:50, category: "backend" },
     {name: "MongoDB", level:50, category: "backend" },
-    {name: "Render Domain Service", level:50, category: "backend" },
+    {name: "Render / Vercel", level:50, category: "backend" },
     {name: "Cloudinary", level:50, category: "backend" },
+    {name: "Git", level:50, category: "backend" },
+    // {name: "Render Domain Service", level:50, category: "backend" },
     //Web Builder
     {name: "Figma", level:65, category: "builder" },
     {name: "Duda", level:95, category: "builder" },
@@ -24,10 +26,12 @@ const skills = [
     {name: "Canva", level:100, category: "design" },
     {name: "Adobe Photoshop", level:95, category: "design" },
     {name: "Adobe Illustrator", level:50, category: "design" },
-
+    //Other
+    {name: "Unity", level:15, category: "other" },
+    {name: "Blender", level:20, category: "other" },
 ]
 
-const categories = ["all", "frontend", "backend", "builder", "design"]
+const categories = ["all", "frontend", "backend", "builder", "design", "other"]
 
 export const Tools = () => {
     const [activeCategory, setActiveCategory] = useState("all");
@@ -52,7 +56,7 @@ export const Tools = () => {
             ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6">
                 {filteredSkills.map((skill, key) => (
                     <div key={key} className="bg-card p-6 rounded-lg shadow-xs card-hover"> 
                     <div className="text-left mb-4">
