@@ -2,8 +2,8 @@ import { Heart } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const socialLinks = [
-  { icon: FaGithub, href: "#", label: "GitHub" },
-  { icon: FaLinkedin, href: "#", label: "LinkedIn" },
+  { icon: FaGithub, href: "https://github.com/CodeRex990", label: "GitHub" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/charles-eduard-español-945230316/#", label: "LinkedIn" },
 ];
 
 const footerLinks = [
