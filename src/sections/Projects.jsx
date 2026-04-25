@@ -17,7 +17,7 @@ const projects = [
        description: "A full-stack interactive review platform featuring secure user authentication and dynamic content management. Developed using React.js and Node.js with a responsive Bootstrap UI and MongoDB for scalable data storage.",
        image: "/projects/project2.png", 
        tags: ["Javascript", "Bootstrap CSS", "Node.js", "React.js", "MongoDB"],
-       link: "https://bulakenyospots.up.railway.app",
+       link: "https://bulakenyo-spots.onrender.com",
        githubUrl: "#",
     },
     {
