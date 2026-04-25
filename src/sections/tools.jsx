@@ -1,7 +1,7 @@
 import { GitBranch, Key } from "lucide-react";
 import { useState } from "react";
 import {cn} from "@/lib/utils";
-import { FaBlender, FaBootstrap, FaHtml5, FaNodeJs, FaReact, FaSalesforce, FaWix } from "react-icons/fa";
+import { FaBlender, FaBootstrap, FaHtml5, FaNodeJs, FaPython, FaReact, FaSalesforce, FaWix } from "react-icons/fa";
 import { DiIllustrator, DiJavascript, DiMongodb, DiNodejs, DiPhotoshop } from "react-icons/di";
 import { BsJavascript, BsUnity, BsWordpress } from "react-icons/bs";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -33,6 +33,7 @@ const skills = [
     {name: "Render", level:45, category: "backend", icon:<SiRender />, label:"Familiar", },
     {name: "Cloudinary", level:45, category: "backend", icon:<SiCloudinary />, label:"Familiar", },
     {name: "Git", level:50, category: "backend", icon:<GitBranch />, label:"Intermediate", },
+    {name: "Python", level:25, category: "backend", icon:<FaPython />, label:"Familiar", },
     // {name: "Visual Studio", level:75, category: "backend" },
     //Web Builder
     {name: "Figma", level:40, category: "builder", icon:<FiFigma />, label:"Intermediate",  },
