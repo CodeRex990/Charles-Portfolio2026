@@ -12,10 +12,11 @@ const skills = [
     //Backend
     {name: "Node.js", level:50, category: "backend" },
     {name: "MongoDB", level:50, category: "backend" },
-    {name: "Render / Vercel", level:50, category: "backend" },
+    {name: "Vercel", level:50, category: "backend" },
+    {name: "Render", level:50, category: "backend" },
     {name: "Cloudinary", level:50, category: "backend" },
     {name: "Git", level:50, category: "backend" },
-    // {name: "Render Domain Service", level:50, category: "backend" },
+    // {name: "Visual Studio", level:75, category: "backend" },
     //Web Builder
     {name: "Figma", level:65, category: "builder" },
     {name: "Duda", level:95, category: "builder" },
@@ -29,6 +30,7 @@ const skills = [
     //Other
     {name: "Unity", level:15, category: "other" },
     {name: "Blender", level:20, category: "other" },
+    {name: "Salesforce", level:80, category: "other" },
 ]
 
 const categories = ["all", "frontend", "backend", "builder", "design", "other"]

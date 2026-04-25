@@ -6,6 +6,7 @@ import { Projects } from "./sections/Projects"
 import { Gallery } from "./sections/Gallery"
 import { Tools } from "./sections/tools"
 import { useEffect } from "react"; // Added this import
+import { Footer } from "./layout/Footer"
 
 
 
@@ -14,19 +15,20 @@ function App() {
   //   document.title = "Charles Eduard Español";
   // }, []);
   
-  return ( <div className="min-h-screen overflow-x-hidden"> <Navbar />
-  <main>
-    <Navbar />
-  </main>
-    <Hero  />
-    <About />
-    <Projects />
-    <Experience />
-    <Tools />
-    <Gallery />
-  </div>
-
-  )
+  return (
+    <div className="min-h-screen overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Experience />
+        <Tools />
+        <Gallery />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 export default App

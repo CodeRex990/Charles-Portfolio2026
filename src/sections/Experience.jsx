@@ -4,7 +4,7 @@ const experiences = [
         role: "Web Designer - Senior Analyst",
         company: "Eclerx",
         description: "Provided day-to-day support for website updates and interface adjustments across multiple client-managed platforms. Handled modification requests, ensured accurate implementation of design changes, and maintained consistency with existing brand guidelines. Strengthened communication skills through regular interaction with international clients and improved ability to translate non-technical requests into practical web solutions.",
-        technologies: ["Duda", "CRM"],
+        technologies: ["Duda", "Salesforce CRM"],
         current: false,
     },
     {

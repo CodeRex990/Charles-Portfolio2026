@@ -68,7 +68,7 @@ export const Hero = () => {
               {/* <Button size="lg">Contact Me<ArrowRight className="w-5 h-5" /></Button> */}
               <AnimatedBorderButton >
                   <Download className="w-5 h-5" />
-                  Download CV
+                <a href="/Charles Eduard Español CV 2026.pdf" target="_blank">Download CV</a>
               </AnimatedBorderButton>
             </div>
             {/* Social Links */}
