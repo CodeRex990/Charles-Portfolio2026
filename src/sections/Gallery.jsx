@@ -7,6 +7,11 @@ const galleryData = [
     images: [
       { 
         type: "site",
+        imageLink: "/projects/project6.png",
+        link: "https://bulakenyo-spots.onrender.com" 
+      },
+      { 
+        type: "site",
         imageLink: "/projects/project4.png",
         link: "https://beta.websiteadmin.thryv.com/preview/ad09cccaff65454fa71a0a1d1388a611?t=1756397959539&device=all" 
       },
@@ -246,7 +251,7 @@ const galleryData = [
 ];
 
 export const Gallery = () => {
-  const [activeTab, setActiveTab] = useState("html");
+  const [activeTab, setActiveTab] = useState("web");
   const [selectedImg, setSelectedImg] = useState(null);
 
   const handleItemClick = (e, item) => {
