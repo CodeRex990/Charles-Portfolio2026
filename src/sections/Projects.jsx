@@ -35,7 +35,7 @@ const projects = [
        description: "A sophisticated automation tool engineered to optimize repetitive gameplay mechanics. Leverages OpenCV for real-time computer vision and Python with Tkinter to provide a functional, user-friendly interface.",
        image: "/projects/project5.png", 
        tags: ["OpenCV", "Tkinter UI", "Python", "Automation", "AI Collaboration"],
-    //    link: "#",
+       link: "https://github.com/CodeRex990/Heartopia-Auto-Cook",
     //    githubUrl: "#",
     },    
 ]
