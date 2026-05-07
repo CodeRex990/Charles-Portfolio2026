@@ -29,13 +29,23 @@ const galleryData = [
         type: "site",
         imageLink: "/projects/WebDesign/originalp.png",
         link: "https://coderex990.github.io/Charles-Online-Portfolio/" 
-      },        
+      },
+      { 
+        type: "site",
+        imageLink: "/projects/WebDesign/project3.png",
+        link: "https://beta.websiteadmin.thryv.com/preview/757953b01ce44de48eb8553f2cc44939?t=1748436827980&device=all",
+      },       
     ],
   },
   {
     label: "Logo",
     value: "logo",
     images: [
+      { 
+        type: "image",
+        imageLink: "./projects/Logo/REX LOGO.png",
+        link: "./projects/Logo/REX LOGO.png" 
+      },
       { 
         type: "image",
         imageLink: "./projects/Logo/REXlangnew.jpg",

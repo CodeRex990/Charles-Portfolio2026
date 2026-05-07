@@ -22,11 +22,11 @@ const projects = [
     },
     {
        id: 3,
-       title: "Maid For You Duda Website",
-       description: "A professional service-oriented mockup designed and deployed via the Duda web builder. Focused on conversion-centric layout principles and seamless cross-device responsiveness.",
+       title: "Personal Finance Tracker",
+       description: "A simple front-end finance tracker mockup developed using React JS and React Routers with a responsive traditional custom CSS framework and uses Local Browser Storage.",
        image: "/projects/project3.png", 
-       tags: ["WebBuilder", "DUDA", "Web Design"],
-       link: "https://beta.websiteadmin.thryv.com/preview/757953b01ce44de48eb8553f2cc44939?t=1748436827980&device=all",
+       tags: ["React Routers", "React JS"],
+       link: "https://personalfinancetracker-rose.vercel.app/",
        githubUrl: "#",
     },
     {

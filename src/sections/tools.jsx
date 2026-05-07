@@ -5,7 +5,7 @@ import { FaBlender, FaBootstrap, FaHtml5, FaNodeJs, FaPython, FaReact, FaSalesfo
 import { DiIllustrator, DiJavascript, DiMongodb, DiNodejs, DiPhotoshop } from "react-icons/di";
 import { BsJavascript, BsUnity, BsWordpress } from "react-icons/bs";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiBlender, SiCanva, SiCloudinary, SiRender, SiTailwindcss } from "react-icons/si";
+import { SiBlender, SiCanva, SiCloudinary, SiReactrouter, SiRender, SiTailwindcss } from "react-icons/si";
 import { CgVercel, CgWebsite } from "react-icons/cg";
 import { GiBlender, GiTBrick } from "react-icons/gi";
 import { FiFigma } from "react-icons/fi";
@@ -23,9 +23,10 @@ const skills = [
     //frontend
     {name: "HTML/CSS", level:80, category: "frontend", icon:<FaHtml5 />, label:"High Proficiency", },
     {name: "Javascript", level:40, category: "frontend", icon:<RiJavascriptFill />, label:"Active Learning", },
-    {name: "Tailwind CSS", level:25, category: "frontend", icon:<SiTailwindcss />, label:"Active Learning", },
+    {name: "Tailwind CSS", level:35, category: "frontend", icon:<SiTailwindcss />, label:"Active Learning", },
     {name: "React", level:25, category: "frontend", icon:<FaReact />, label:"Active Learning", },
     {name: "Bootstrap5", level:75, category: "frontend", icon:<FaBootstrap />, label:"Proficient", },
+    {name: "React Routers", level:30, category: "frontend", icon:<SiReactrouter />, label:"Active Learning", },
     //Backend
     {name: "Node.js", level:50, category: "backend", icon:<FaNodeJs />, label:"Active Learning", },
     {name: "MongoDB", level:45, category: "backend", icon:<DiMongodb />, label:"Familiar", },
