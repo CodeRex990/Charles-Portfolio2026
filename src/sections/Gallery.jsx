@@ -17,6 +17,11 @@ const galleryData = [
       },
       { 
         type: "site",
+        imageLink: "/projects/WebDesign/neosaurswordpress.jpeg",
+        link: "https://neosaursrevival-wordpress.vercel.app" // Full res
+      },
+      { 
+        type: "site",
         imageLink: "/projects/WebDesign/BigBossLandingPAge.png",
         link: "https://coderex990.github.io/bigboss-diner-online/index.html" // Full res
       },

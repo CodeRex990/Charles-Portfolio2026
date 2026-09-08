@@ -44,13 +44,13 @@ export const About = () => {
                         <span className="font-serif italic font-normal text-white"> one component at a time.</span>
                     </h2>
                     <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200 text-justify">
-                        <p>With over a year of professional experience in the tech industry, I have developed a unique perspective on how users interact with the web. My background involves real-time collaboration with North American clients, helping them refine and modify their digital presence. This experience has strengthened my ability to understand user needs, interpret client expectations, and translate them into practical design solutions.</p>
-                        <p>I’m currently focused on advancing as a front-end developer with a growing emphasis on design. I rely on structured workflows, documentation, and proven tools to build clean and maintainable interfaces. While I continue to develop confidence in writing from scratch, I prioritize delivering results through efficient and scalable approaches.</p>
+                        <p>With 1.5 years of professional experience in the tech industry, I have developed a practical understanding of how websites are built, maintained, and experienced by users. In my current role, I work directly with North American clients, helping implement website updates, content changes, and design adjustments while translating their requirements into functional digital experiences.</p>
+                        <p>My experience extends beyond web design. I work with HTML, CSS, and JavaScript, with hands-on exposure to React and modern web development workflows. I also have experience with CMS and website-building platforms such as Duda and WordPress, alongside tools and practices related to SEO, Google Analytics, UI design, and content management.</p>
                     </div>
 
                         <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
                             <p className="text-lg font-medium italic text-foreground">
-                                My goal is to bridge the gap between visual design and technical execution—creating work that is not only functional, but thoughtfully crafted.
+                               I'm continuing to strengthen my front-end development capabilities while expanding into CMS, CRM, analytics, and digital experience platforms. My goal is to become a versatile web professional who can contribute across both the technical and creative sides of the web.
                             </p>
                         </div>
                             </div>

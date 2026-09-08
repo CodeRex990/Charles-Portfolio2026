@@ -1,7 +1,7 @@
 import { GitBranch, Key } from "lucide-react";
 import { useState } from "react";
 import {cn} from "@/lib/utils";
-import { FaBlender, FaBootstrap, FaHtml5, FaNodeJs, FaPython, FaReact, FaSalesforce, FaWix } from "react-icons/fa";
+import { FaBlender, FaBootstrap, FaHtml5, FaHubspot, FaNodeJs, FaPython, FaReact, FaSalesforce, FaWix } from "react-icons/fa";
 import { DiIllustrator, DiJavascript, DiMongodb, DiNodejs, DiPhotoshop } from "react-icons/di";
 import { BsJavascript, BsUnity, BsWordpress } from "react-icons/bs";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -36,12 +36,13 @@ const skills = [
     {name: "Git", level:50, category: "backend", icon:<GitBranch />, label:"Intermediate", },
     {name: "Python", level:25, category: "backend", icon:<FaPython />, label:"Familiar", },
     // {name: "Visual Studio", level:75, category: "backend" },
-    //Web Builder
-    {name: "Figma", level:40, category: "builder", icon:<FiFigma />, label:"Intermediate",  },
-    {name: "Duda", level:95, category: "builder", icon:<CgWebsite />, label:"Core Workflow",  },
-    {name: "Wordpress", level:35, category: "builder", icon:<BsWordpress />, label:"Intermediate",  },
-    {name: "Webflow", level:50, category: "builder", icon:<FaWebflow />, label:"Intermediate",  },
-    {name: "Wix", level:35, category: "builder", icon:<FaWix />, label:"Intermediate",  },
+    //Web Builder / CMS
+    {name: "Figma", level:40, category: "CMS", icon:<FiFigma />, label:"Intermediate",  },
+    {name: "Duda", level:95, category: "CMS", icon:<CgWebsite />, label:"Core Workflow",  },
+    {name: "Wordpress", level:35, category: "CMS", icon:<BsWordpress />, label:"Functional",  },
+    {name: "Webflow", level:50, category: "CMS", icon:<FaWebflow />, label:"Intermediate",  },
+    {name: "Wix", level:20, category: "CMS", icon:<FaWix />, label:"Learning",  },
+    {name: "Hubspot", level:20, category: "CMS", icon:<FaHubspot />, label:"Learning",  },
     //Design
     {name: "Canva", level:100, category: "design", icon:<SiCanva />, label:"High Proficiency", },
     {name: "Adobe Photoshop", level:99, category: "design", icon:<DiPhotoshop />, label:"High Proficiency", },
@@ -52,7 +53,7 @@ const skills = [
     {name: "Salesforce", level:80, category: "other", icon:<FaSalesforce />, label:"Core Workflow", },
 ]
 
-const categories = ["all", "frontend", "backend", "builder", "design", "other"]
+const categories = ["all", "frontend", "backend", "CMS", "design", "other"]
 
 export const Tools = () => {
     const [activeCategory, setActiveCategory] = useState("all");

@@ -7,7 +7,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6"
 
 const skills = [
   "React", "Node.js", "MongoDB", "HTML5 & CSS", "Tailwind CSS", "Bootstrap CSS",
-  "Figma", "Duda", "Webflow", "Photoshop", "Git", "Vercel"
+  "Figma", "Duda", "Webflow", "Photoshop", "Git", "Vercel", "Hubspot", "CMS Technologies", "WordPress", 
+  "Web Analytics"
 ]
 
 export const Hero = () => {
@@ -44,7 +45,7 @@ export const Hero = () => {
             <div className="space-y-8" >
                 <div className="animate-fade-in">
                     <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
-                        <span className="w-2 h-2 bg-primary rounded-full animate pulse" /> Web Designer - Senior Analyst
+                        <span className="w-2 h-2 bg-primary rounded-full animate pulse" /> Web Designer - Analyst
                     </span>
                 </div>
           {/* Headline */}
@@ -59,8 +60,7 @@ export const Hero = () => {
                 </span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg animated-fade-in animation-delay-200 text-npm install react-iconsjustify text-justify">
-              I'm <b>Charles Eduard Español</b>, a front-end focused developer and designer dedicated to building high-quality web experiences 
-              using industry-standard frameworks and proven libraries. Currently seeking new opportunities to innovate and scale.
+              I'm <b>Charles Eduard Español</b>, a web designer and front-end focused developer with professional experience supporting and improving digital experiences for North American clients. I work across web development, CMS platforms, SEO, analytics, and visual design, combining technical and creative skills to build practical, user-focused experiences.
             </p>
           </div>
           {/* CTA */}
