@@ -2,17 +2,26 @@ import { ArrowUpRight, Link, LucideSquareArrowOutUpRight } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const projects = [
-    {
+        {
        id: 1,
+       title: "Bite-Zilla WIX Website",
+       description: "A E-Commerce Website build using WIX site builder featuring original logo and AI enhanced media.",
+       image: "/projects/project7.png", 
+       tags: ["Wix", "E-Commerce", "Web Design", "AI Collaboration"],
+       link: "https://espanolcharleswork.wixsite.com/bite-zilla-design",
+    //    githubUrl: "#",
+    },   
+    {
+       id: 2,
        title: "Neosaur Remake Webflow Website",
        description: "A high-fidelity conceptual landing page developed for a game remake initiative. Built using Webflow, the site serves as the primary digital front, showcasing collaborative design efforts and project milestones.",
        image: "/projects/project1.png", 
-       tags: ["WebBuilder", "Webflow", "Web Design", "AI Collaboration"],
+       tags: ["Webflow", "Web Design", "AI Collaboration"],
        link: "https://neosaur-remake.webflow.io",
        githubUrl: "#",
     },
     {
-       id: 2,
+       id: 3,
        title: "BulakenyoSpots Review Platform",
        description: "A full-stack interactive review platform featuring secure user authentication and dynamic content management. Developed using React.js and Node.js with a responsive Bootstrap UI and MongoDB for scalable data storage.",
        image: "/projects/project2.png", 
@@ -21,23 +30,14 @@ const projects = [
        githubUrl: "#",
     },
     {
-       id: 3,
+       id: 4,
        title: "Personal Finance Tracker",
        description: "A simple front-end finance tracker mockup developed using React JS and React Routers with a responsive traditional custom CSS framework and uses Local Browser Storage.",
        image: "/projects/project3.png", 
        tags: ["React Routers", "React JS"],
        link: "https://personalfinancetracker-rose.vercel.app/",
        githubUrl: "#",
-    },
-    {
-       id: 4,
-       title: "Automated Game Utility",
-       description: "A sophisticated automation tool engineered to optimize repetitive gameplay mechanics. Leverages OpenCV for real-time computer vision and Python with Tkinter to provide a functional, user-friendly interface.",
-       image: "/projects/project5.png", 
-       tags: ["OpenCV", "Tkinter UI", "Python", "Automation", "AI Collaboration"],
-       link: "https://github.com/CodeRex990/Heartopia-Auto-Cook",
-    //    githubUrl: "#",
-    },    
+    }, 
 ]
 
 

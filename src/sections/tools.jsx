@@ -41,7 +41,7 @@ const skills = [
     {name: "Duda", level:95, category: "CMS", icon:<CgWebsite />, label:"Core Workflow",  },
     {name: "Wordpress", level:35, category: "CMS", icon:<BsWordpress />, label:"Functional",  },
     {name: "Webflow", level:50, category: "CMS", icon:<FaWebflow />, label:"Intermediate",  },
-    {name: "Wix", level:20, category: "CMS", icon:<FaWix />, label:"Learning",  },
+    {name: "Wix", level:33, category: "CMS", icon:<FaWix />, label:"Functional",  },
     {name: "Hubspot", level:20, category: "CMS", icon:<FaHubspot />, label:"Learning",  },
     //Design
     {name: "Canva", level:100, category: "design", icon:<SiCanva />, label:"High Proficiency", },

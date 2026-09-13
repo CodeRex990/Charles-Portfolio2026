@@ -7,6 +7,11 @@ const galleryData = [
     images: [
       { 
         type: "site",
+        imageLink: "/projects/project7.png",
+        link: "https://espanolcharleswork.wixsite.com/bite-zilla-design" 
+      },
+      { 
+        type: "site",
         imageLink: "/projects/project6.png",
         link: "https://bulakenyo-spots.onrender.com" 
       },
@@ -46,6 +51,11 @@ const galleryData = [
     label: "Logo",
     value: "logo",
     images: [
+      { 
+        type: "image",
+        imageLink: "./projects/Logo/Bite-Zilla.jpg",
+        link: "./projects/Logo/Bite-Zilla.jpg" 
+      },
       { 
         type: "image",
         imageLink: "./projects/Logo/REX LOGO.png",
@@ -102,6 +112,11 @@ const galleryData = [
     label: "Shirt Design",
     value: "shirt",
     images: [
+      { 
+        type: "image",
+        imageLink: "/projects/Mockup Shirt Designs/Shirt Mockup goji26.png",
+        link: "/projects/Mockup Shirt Designs/Shirt Mockup goji26.png" 
+      },
       { 
         type: "image",
         imageLink: "/projects/Mockup Shirt Designs/Shirt Mockup Charizard2nd.png",
