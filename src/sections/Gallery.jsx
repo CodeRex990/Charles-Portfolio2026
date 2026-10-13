@@ -35,16 +35,21 @@ const galleryData = [
         imageLink: "/projects/WebDesign/PanSnapLandingPage.png",
         link: "https://coderex990.github.io/Pansnap.E3-web/" 
       },
-      { 
-        type: "site",
-        imageLink: "/projects/WebDesign/originalp.png",
-        link: "https://coderex990.github.io/Charles-Online-Portfolio/" 
-      },
+      // { 
+      //   type: "site",
+      //   imageLink: "/projects/WebDesign/originalp.png",
+      //   link: "https://coderex990.github.io/Charles-Online-Portfolio/" 
+      // },
       { 
         type: "site",
         imageLink: "/projects/WebDesign/project3.png",
         link: "https://beta.websiteadmin.thryv.com/preview/757953b01ce44de48eb8553f2cc44939?t=1748436827980&device=all",
       },       
+      { 
+        type: "site",
+        imageLink: "/projects/WebDesign/zoe.png",
+        link: "https://zoe-baptism-invitation.vercel.app",
+      },  
     ],
   },
   {

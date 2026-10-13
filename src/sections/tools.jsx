@@ -37,7 +37,6 @@ const skills = [
     {name: "Python", level:25, category: "backend", icon:<FaPython />, label:"Familiar", },
     // {name: "Visual Studio", level:75, category: "backend" },
     //Web Builder / CMS
-    {name: "Figma", level:40, category: "CMS", icon:<FiFigma />, label:"Intermediate",  },
     {name: "Duda", level:95, category: "CMS", icon:<CgWebsite />, label:"Core Workflow",  },
     {name: "Wordpress", level:35, category: "CMS", icon:<BsWordpress />, label:"Functional",  },
     {name: "Webflow", level:50, category: "CMS", icon:<FaWebflow />, label:"Intermediate",  },
@@ -46,7 +45,9 @@ const skills = [
     //Design
     {name: "Canva", level:100, category: "design", icon:<SiCanva />, label:"High Proficiency", },
     {name: "Adobe Photoshop", level:99, category: "design", icon:<DiPhotoshop />, label:"High Proficiency", },
-    {name: "Adobe Illustrator", level:50, category: "design", icon:<DiIllustrator />, label:"Intermediate", },
+    {name: "Adobe Illustrator", level:40, category: "design", icon:<DiIllustrator />, label:"Functional", },
+    {name: "Figma", level:35, category: "design", icon:<FiFigma />, label:"Functional",  },
+
     //Other
     {name: "Unity", level:15, category: "other", icon:<BsUnity />, label:"Familiar", },
     {name: "Blender", level:20, category: "other", icon:<SiBlender />, label:"Familiar", },
